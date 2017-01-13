@@ -1,0 +1,10 @@
+extends ./layout
+
+block content
+  h1 Register your number
+  form(method='post')
+    .field
+      label(for='number') Phone number
+      input(type='text', name='number', placeholder='1444555666')
+    .actions
+      input(type='submit', value='Register')

@@ -1,0 +1,12 @@
+extends ./layout
+
+block content
+  h1 Confirm the code
+  #flash_alert We have sent a confirmation code to your phone number. Please fill in the code below to continue.
+  form(method='post')
+    .field
+      label(for='code') Code
+      input(type='text', name='code', placeholder='1234')
+      input(type='hidden', name='request_id', value=request_id)
+    .actions
+      input(type='submit', value='Confirm')
