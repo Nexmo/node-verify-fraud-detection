@@ -1,28 +1,22 @@
 {
-  "name": "verify-fraud-detection",
+  "name": "fraudapp",
   "version": "1.0.0",
-  "description": "An example Fraud Detection application that show how to combine Nexmo Number Insight and Nexmo Verify to confirm a number before continuing.",
-  "main": "./lib/server.js",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "start": "nodemon ./lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "sms",
-    "proxy",
-    "nexmo"
-  ],
-  "author": "Cristiano betta <cbetta@gmail.com> (http://betta.io)",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "dotenv": "^2.0.0",
-    "express": "^4.14.0",
-    "jade": "^1.11.0",
-    "maxmind": "^2.1.0",
-    "nexmo": "^1.0.0-beta-5"
-  },
-  "devDependencies": {
-    "nodemon": "^1.10.2"
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "maxmind": "^2.7.0",
+    "nexmo": "^2.4.0",
+    "pug": "^2.0.3"
   }
 }
