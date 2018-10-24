@@ -1,6 +1,6 @@
 # Fraud Detection using Node and the Nexmo Verify and Number Insight APIs
 
-This app used the Nexmo Number Insight and Verify APIs to demonstrate how detect and prevent fraudulent phone numbers by comparing the IP of the request to the country of the number's current location.
+This app uses the Nexmo Number Insight and Verify APIs to demonstrate how to detect and prevent fraudulent phone numbers by comparing the IP of the request to the country of the number's current location.
 
 ## Prerequisites
 
